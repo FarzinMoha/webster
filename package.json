@@ -1,5 +1,5 @@
 {
-  "homepage":"http://FarzinMoha.github.io/webster",
+  "homepage": "http://FarzinMoha.github.io/webster",
   "name": "webster2",
   "version": "0.1.0",
   "private": true,
@@ -21,8 +21,8 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "predeploy":"npm run build",
-    "deploy":"gh-pages -d build",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
@@ -46,6 +46,7 @@
     ]
   },
   "devDependencies": {
+    "gh-pages": "^4.0.0",
     "video.js": "^7.20.3"
   }
 }
