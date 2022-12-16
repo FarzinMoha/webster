@@ -1,0 +1,29 @@
+{
+  "files": {
+    "main.css": "/webster/static/css/main.0c6ebce1.css",
+    "main.js": "/webster/static/js/main.4d2ac722.js",
+    "static/js/787.644eeab3.chunk.js": "/webster/static/js/787.644eeab3.chunk.js",
+    "static/media/support.mp4": "/webster/static/media/support.37d0b4e02673ca14bab3.mp4",
+    "static/media/design.mp4": "/webster/static/media/design.a2683ec89d3081d69901.mp4",
+    "static/media/steps.mp4": "/webster/static/media/steps.7f327509c1a0dea24f89.mp4",
+    "static/media/time.mp4": "/webster/static/media/time.12cddfb479820cc351f9.mp4",
+    "static/media/2.jpg": "/webster/static/media/2.ecdc6eeb32a18f51ae8a.jpg",
+    "static/media/3.jpg": "/webster/static/media/3.89d35a714c4ca32da434.jpg",
+    "static/media/5.jpg": "/webster/static/media/5.687c979736d0d5d7208d.jpg",
+    "static/media/6.jpg": "/webster/static/media/6.6502ccab77c85ad2aa75.jpg",
+    "static/media/1.jpg": "/webster/static/media/1.2c8482e435cacd3baffe.jpg",
+    "static/media/4.jpg": "/webster/static/media/4.1c923e7f6dba4858bb34.jpg",
+    "static/media/image.svg": "/webster/static/media/image.034380e5d1e86a86cb53378318cb4bca.svg",
+    "static/media/Humane-Bold.ttf": "/webster/static/media/Humane-Bold.9512f38afdc61cbfddd2.ttf",
+    "static/media/Humane-Bold.woff": "/webster/static/media/Humane-Bold.e864217e5450be541ed9.woff",
+    "static/media/Humane-Bold.woff2": "/webster/static/media/Humane-Bold.52684b1e523aa990c209.woff2",
+    "index.html": "/webster/index.html",
+    "main.0c6ebce1.css.map": "/webster/static/css/main.0c6ebce1.css.map",
+    "main.4d2ac722.js.map": "/webster/static/js/main.4d2ac722.js.map",
+    "787.644eeab3.chunk.js.map": "/webster/static/js/787.644eeab3.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.0c6ebce1.css",
+    "static/js/main.4d2ac722.js"
+  ]
+}
