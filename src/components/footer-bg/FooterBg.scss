@@ -1,0 +1,34 @@
+.footer-bg-container {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  text-align: left;
+  position: sticky;
+  top: 0;
+  left: 0;
+  background-color: var(--black2);
+  & .footer-bg-title {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+    transform: translate(-50%, -50%);
+    text-shadow: 3px 3px 10px #fff, -2px 1px 10px #fff;
+    -webkit-text-stroke: 0.5px var(--grayDark3);
+    letter-spacing: 6px;
+    font-size: 10vw;
+    color: var(--grayDark1);
+    font-family: var(--gri);
+  }
+  & .footer-bg {
+    height: 100vh;
+    width: 5%;
+    background-color: var(--grayMain);
+    z-index: 10;
+    transform-origin: left center;
+    transform: scale(0, 1);
+  }
+}

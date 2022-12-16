@@ -1,0 +1,16 @@
+.loading-container{
+    position: absolute;
+    display: block;
+    bottom: 110px;
+    right: 50px;
+    font-family: var(--gri);
+    color: var(--black2);
+    font-size: 10vw;
+    transition: .5s;
+    opacity: 1;
+    transform: translateY(0px);
+    &.hide{
+        opacity: 0;
+        transform: translateX(10px);
+    }
+}

@@ -1,0 +1,112 @@
+.intro-container {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  min-height: 600px;
+  background-color: var(--grayMain);
+  padding: 0px 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  animation: 1s scalebig forwards;
+  animation-delay: 2s;
+  transform: scale(0.6);
+
+  & .intro-navigation {
+    width: 100%;
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  & .intro-title {
+    justify-self: center;
+    height: calc(85vh - 60px);
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    h1 {
+      animation: 1s introTitle forwards;
+      animation-delay: 2s;
+      font-family: var(--gri);
+      color: var(--black2);
+      font-size: 5vw;
+      overflow-wrap: break-word;
+      @media screen and (max-height : 700px) {
+        line-height: 100px;
+        
+      }
+    }
+  }
+  & .intro-bottom {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    height: 15vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top: 2px solid var(--grayDark1);
+    border-bottom: 2px solid var(--grayDark1);
+    // background-color: blue;
+  }
+}
+
+#light {
+  position: relative;
+  top: 150px;
+
+  width: 100%;
+}
+#lineh1 {
+  position: absolute;
+  left: 0;
+  height: 2px;
+  background: #ffffff;
+  animation: lineH 7s 8s infinite linear;
+  transform: translateX(-20px) rotate(5deg);
+  border-radius: 50px;
+}
+#lineh2 {
+  transform: translateX(-20px) rotate(-10deg);
+  position: absolute;
+  left: 0;
+  top: 440px;
+  height: 2px;
+  background: #ffffff;
+  animation: lineH 10s 2.5s infinite linear;
+  animation-delay: 1s;
+  border-radius: 50px;
+}
+
+@keyframes lineH {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 95%;
+    opacity: 0;
+  }
+}
+
+@keyframes introTitle {
+  0% {
+    font-size: 5vw;
+  }
+  100% {
+    font-size: 10vw;
+  }
+}
+
+@keyframes scalebig {
+  0% {
+    transform: scale(0.6);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
